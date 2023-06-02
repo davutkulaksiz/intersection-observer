@@ -6,3 +6,5 @@ This project aims to optimize the performance of a React application by utilizin
 ## Features
 - Improve performance by reducing unnecessary rendering or processing of hidden or off-screen elements.
 - Lazy loading of images when they come into view.
+
+![Animation](https://github.com/davutkulaksiz/intersection-observer/assets/58954450/3ff83b45-6cc2-4f6d-993d-e8845c95496d)
