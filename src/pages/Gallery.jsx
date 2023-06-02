@@ -1,3 +1,5 @@
+import LazyImage from "../components/LazyImage";
+
 const Gallery = () => {
   const images = [
     {
@@ -46,9 +48,9 @@ const Gallery = () => {
     <>
       <h2>Welcome to the Gallery</h2>
       {images.map((image) => (
-        <img
+        <LazyImage
           key={image.id}
-          src={image.url}
+          url={image.url}
           alt="World of Warcraft"
           width="1080"
           height="700"
